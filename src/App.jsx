@@ -1,11 +1,13 @@
-import './App.css'
+import SiteFooter from "./layout/Footer"
+import SiteNav from "./layout/Nav"
 
 function App() {
 
   return (
-    <div className='m-5'>
-      default
-    </div>
+    <>
+      <SiteNav />
+      <SiteFooter />
+    </>
   )
 }
 
